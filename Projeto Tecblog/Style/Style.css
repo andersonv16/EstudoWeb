@@ -77,13 +77,13 @@ aside > div > h1{
 
 #container{
     margin: 0 auto;
-    width: 75%;
+    width: 920px;
 }
 article{
     background-color: white;
     padding: 20px;
     margin: 15px;
-    width: 63%;
+    width: 60%;
 }
 article > h1{
 
