@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e6e6e6;
+}
+/* Menu */ 
+
+#logo{
+    text-align: center;
+    padding: 10px;
+    color: #4e4e4e;
+    font-size: 2.5em;
+  
+}
+#logo > span{
+    color: white;
+}
+nav{
+    background-color: rgb(255, 192, 20);
+    padding: 15px;
+    height: 100px;
+}
+#menu{
+
+    text-align: center;
+}
+#menu li{
+    display: inline-block;
+    padding: 10px;
+}
+#menu li a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+#menu li a:link, #menu li a:visited{
+    color: rgb(255, 255, 255);
+    padding: 8px 12px;
+}
+
+#menu li a:hover{
+    color: rgb(255, 192, 20);
+    background-color:white;
+  
+}
+
+/* Lateral */ 
+a:link , a:visited{
+    color: rgb(255, 192, 20);
+    text-decoration: none;
+}
+li{
+  list-style: none;  
+}
+aside{
+    float: right;
+}
+aside > div {
+    width: 250px;
+    background-color: white;
+    margin:0px 20px 20px;
+    padding: 10px;
+}
+aside > div > p {
+    padding: 5px;
+}
+aside > div > h1{
+    background-color: #c4bfbf;
+    padding: 5px;
+    color: #4e4e4e;
+}
+
+/* Corpo */
+
+#container{
+    margin: 0 auto;
+    width: 75%;
+}
+article{
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    width: 63%;
+}
+article > h1{
+
+    color: rgb(255, 192, 20);
+}
+article > h4{
+    font-size: 0.8em;
+    padding-bottom: 20px;
+    }
+    article > img{
+        width: 100%;
+    }
+
+    /* Rodapé */ 
+
+    footer {
+        background-color: #888585;
+        text-align: center;
+        padding: 40px;
+        font-weight: bolder;
+    }
