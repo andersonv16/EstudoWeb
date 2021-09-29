@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.0em;
+}
+/* Cabeçalho e menu */
+
+#cabecalho{
+    background: url("../Img/fundo.png");
+    height: 230px;
+    width: 100%;
+    display: flex;
+
+}
+#logo{
+    float: left;
+    margin: 20px;
+}
+#logo > img{
+    margin-left:120%;
+  
+}
+#menu{
+
+    margin: 8% 0;
+   
+}
+#menu ul{
+    margin:0.9em;
+    
+}
+#menu ul li{
+    float: left;
+    list-style: none;
+    background: url(../Img/divisor.png) repeat-y;
+    line-height: 1.8em;
+   
+    
+ 
+}
+#menu ul li a{
+    box-shadow: 1px 1px rgba(114, 14, 29, 0.89);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    padding: 10px;
+    color: white;
+    background-color: rgba(209, 0, 35, 0.89);
+}
+#menu ul li a:hover{
+    color:rgb(51, 16, 16);
+    
+}
+
+#menu ul li.selecionado a{
+    background-color: rgb(243, 32, 50);
+}  
+
+#detalhe{
+display: block; 
+width: 30%;
+
+}
+
+/* Layout */
+
+#container{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    background: wihte url(../Img/fundo-caixa.png);
+}
+
+#container li{
+    list-style: none;
+    padding: 10px;
+}
+#container li:hover{
+    list-style-image: element();
+   
+}
+#container li:hover:before{
+    content: '✓';
+    color:lightgray
+}
+
+#container li a:hover{
+  color:lightgray
+
+}
+section{
+background: white url('../Img/fundo-caixa.png');
+float: left;
+padding: 5px;
+margin: 5px;
+max-width: 300px;
+}
+
+.sessão{
+    background-color: white;
+    margin: 5px 5px 20px;
+}
+.sessão h1{
+    background-color: #2C5273;
+    color: white;
+    padding: 5px;
+}
+.sessão h5{
+    background-color:rgba(209, 0, 35, 0.89);
+    text-shadow: black 1px 1px 2px;
+    width: 70%;
+    margin: 15px 2px 5px;
+    padding:2px;
+}
+.sessão h4{
+    background-color:rgba(168, 8, 43, 0.89);
+    color: white;
+    padding:2px;
+    font-weight: bolder;
+    margin: 15px 2px 5px;
+    width: 51%;
+}
+.sessão > ul{
+    background-color: white;
+    margin-top: 5px;
+}
+.sessão > img{
+    max-width: 100%;
+}
+.sessão > div{
+    margin: 20px;
+    padding: 5px;
+    border-top: 1px solid rgba(211, 211, 211, 0.384);
+}
+
+.sessão > div > img {
+    float: left;
+    width: 30%;
+    margin: 5px;
+}
+.sessão > div > h3{
+    font-size: 0.7em;
+    color: rgb(0, 162, 255);
+    text-indent: 5px;
+    margin:5px;
+}
+label{
+    font-weight: bolder;
+}
+button{
+    background-color:rgba(168, 8, 43, 0.89);
+    color: white;
+    padding:5px;
+    font-weight: bolder;
+    margin: 15px 2px 5px;
+}
+input{
+    width: 90%;
+    border: solid 1px rgba(128, 128, 128, 0.377);
+    outline-color:rgba(57, 217, 223, 0.377);
+    padding: 5px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #2C5273;
+    padding: 20px;
+    color: white;
+    clear:both;
+    font-weight: bolder;
+    text-align: center;
+}
