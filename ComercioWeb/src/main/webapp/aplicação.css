@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/11/2021, 23:47:26
+    Author     : Ander
+*/
+html, body, #home{
+    height: 100%;
+    overflow-x: hidden;
+     font-family: Arial, Helvetica, sans-serif;
+}   
+body{
+    background: #FAFAFA;
+    background-attachment: fixed;
+}
+ #divBusca{
+            
+            background: #2f3640;
+            height: 40px;
+            width: 200px;
+            border-radius: 40px;
+    
+      
+          
+        }
+        #btnBusca{
+            color:#e84118;
+            float: right;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: transparent;
+            background: #2f3640;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #txtBusca{
+            background: none;
+            border: none;
+            outline: none;
+            float: left;
+            padding: 0;
+            color: white;
+            font-size: 1em;
+            transition: 0.4s;
+            line-height: 40px;
+            width: 0;
+            transition: 0.4s;
+        }
+        #divBusca:hover > #txtBusca{
+           width: 100px;
+            border-radius: 0%;
+            padding: 0 6px;
+    
+        }
+        #divBusca:hover > #btnBusca{
+            background: white;
+        
+           
+        }
+.transparente{
+    padding: 15px 0;
+    background: rgba(237, 40, 63,0.9);
+      box-shadow: #0a063d 0.1em 0.1em 0.5em;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+      text-shadow: #0a063d 0.1em 0.1em 0.2em;
+    font-weight: bolder
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #053885;
+}
+.navbar-light .navbar-toggler{
+    border-color: rgba(255, 255,255,0.5)
+}
+a.navbar-brand.text-warning.fw-bolder{
+  text-shadow: #0a063d 0.1em 0.1em 0.2em;
+}
+.divisor{
+    width: 1px;
+    background: orange;
+    margin: 0 15px;
+    box-shadow: #0a063d 0.1em 0.1em 0.2em;
+}
+fieldset.ms-5.col-md-10.p3{
+    border: transparent;
+}
+fieldset.col-md-6.p3{
+        border: transparent;
+}
+#minhaDiv{
+   
+    display: none;
+ 
+}
+#divEditar{
+    display: none;
+}
+section{
+    overflow: hidden;
+}
+#codigoExcluir{
+  height:0;
+  width:0;
+  visibility: hidden;
+  padding:0;
+  margin:0;
+  float:right;
+}
