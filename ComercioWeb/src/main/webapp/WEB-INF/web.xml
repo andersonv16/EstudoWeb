@@ -36,6 +36,42 @@
         <servlet-name>excluirClienteServlet</servlet-name>
         <servlet-class>servlet.excluirClienteServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>cadastrarFuncionarioServlet</servlet-name>
+        <servlet-class>servlet.cadastrarFuncionarioServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>excluirFuncionarioServlet</servlet-name>
+        <servlet-class>servlet.excluirFuncionarioServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>editarFuncionarioServlet</servlet-name>
+        <servlet-class>servlet.editarFuncionarioServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>cadastrarEntradaServlet</servlet-name>
+        <servlet-class>servlet.cadastrarEntradaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>editarEntradaServlet</servlet-name>
+        <servlet-class>servlet.editarEntradaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>excluirEntradaServlet</servlet-name>
+        <servlet-class>servlet.excluirEntradaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>cadastrarSaidaServlet</servlet-name>
+        <servlet-class>servlet.cadastrarSaidaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>editarSaidaServlet</servlet-name>
+        <servlet-class>servlet.editarSaidaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>excluirSaidaServlet</servlet-name>
+        <servlet-class>servlet.excluirSaidaServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/LoginServlet</url-pattern>
@@ -71,6 +107,42 @@
     <servlet-mapping>
         <servlet-name>excluirClienteServlet</servlet-name>
         <url-pattern>/excluirClienteServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>cadastrarFuncionarioServlet</servlet-name>
+        <url-pattern>/cadastrarFuncionarioServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>excluirFuncionarioServlet</servlet-name>
+        <url-pattern>/excluirFuncionarioServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>editarFuncionarioServlet</servlet-name>
+        <url-pattern>/editarFuncionarioServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>cadastrarEntradaServlet</servlet-name>
+        <url-pattern>/cadastrarEntradaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>editarEntradaServlet</servlet-name>
+        <url-pattern>/editarEntradaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>excluirEntradaServlet</servlet-name>
+        <url-pattern>/excluirEntradaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>cadastrarSaidaServlet</servlet-name>
+        <url-pattern>/cadastrarSaidaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>editarSaidaServlet</servlet-name>
+        <url-pattern>/editarSaidaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>excluirSaidaServlet</servlet-name>
+        <url-pattern>/excluirSaidaServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

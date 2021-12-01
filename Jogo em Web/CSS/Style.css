@@ -49,3 +49,12 @@ opacity: 0.7;
     font: 1.3em sans-serif;
     
 }
+#pontuacao{
+    color: white;
+    font-size: 1.2em;
+    text-shadow: black 2px 1px 2px;
+    font-weight: bolder;
+}
+#img_vit{
+    height: 80%;
+}

@@ -2,6 +2,7 @@
   var largura = 0
   var vidas = 1
   var tempo = 16
+  var pontuacao = 0
   
   var nivel = window.location.search
   nivel.replace('?', ' ')
@@ -32,7 +33,8 @@
       tempo -= 1
       if(tempo < 0 ){
         clearInterval(cronometro)
-        window.location.href = 'vitoria.html'
+        window.location.href = 'vitoria.html?' + pontuacao 
+       
       }else{
 
       document.getElementById('cronometro').innerHTML = tempo
@@ -44,7 +46,7 @@ function posicaoMosquito(){
   if (document.getElementById('mosquito')){
     document.getElementById('mosquito').remove()
     if(vidas > 3){
-      window.location.href = 'fim_de_jogo.html'
+      window.location.href = 'fim_de_jogo.html?' + pontuacao
     }else{
     document.getElementById('v'+vidas).src="imagens/coracao_vazio.png"
     vidas++
@@ -66,6 +68,17 @@ function posicaoMosquito(){
     mosquito.id = 'mosquito'
     mosquito.onclick = function(){
       this.remove()
+      if (nivel === '?normal'){
+        pontuacao = pontuacao + 10
+        
+      }
+      else if (nivel === '?dificil'){
+        pontuacao = pontuacao + 30
+      }
+      else{
+        pontuacao = pontuacao + 60
+      }
+  
     }
     
 
@@ -97,3 +110,5 @@ function posicaoMosquito(){
   }
   function RemoveSelection() 
            {if (window.getSelection) {window.getSelection().removeAllRanges();}}
+
+           

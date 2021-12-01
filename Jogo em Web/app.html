@@ -9,7 +9,6 @@
     <title>Jogo - Mata Mosquito</title>
 </head>
 <body onresize="ajustarTamanho()">
-
     <div class="painel">
         <div class="vidas">
             <img id="v1" src="imagens/coracao_cheio.png">
@@ -22,7 +21,7 @@
 
     <script>
         setInterval(function(){ posicaoMosquito()}, criaMosquitoTempo)
-
+        document.getElementById('pontuacao').innerHTML = pontuacao.replace('?', ' ')
     </script>
     
 </body>

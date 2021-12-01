@@ -63,7 +63,7 @@ public class excluirClienteServlet extends HttpServlet {
               request.setCharacterEncoding("UTF-8");
         response.setContentType("text/html; charset=UTF-8");
 
-        String cpf = request.getParameter("excluirCliente");
+        String cpf = request.getParameter("codigoExcluir");
     
         
         
